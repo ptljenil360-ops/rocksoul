@@ -6,7 +6,7 @@ import logo from '../assets/logo.svg'
 const Footer = () => {
   return (
     <footer className="bg-brand-dark border-t border-brand-accent/20 pt-12 pb-8 px-4 mt-auto">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-left">
         
         {/* Division 1: Information */}
         <div>
@@ -26,7 +26,7 @@ const Footer = () => {
             href="https://maps.google.com?q=124,Maruti%20Solaris,%20Anand%20-%20Sojitra%20Rd,%20Anand,%20Gujarat%20388120&ftid=0x395e4d4e8d06d187:0x18df7379cb6ec6d5&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,94282134,100813469,94286869,100820247,100813014,100822499&g_st=ic" 
             target="_blank" 
             rel="noreferrer"
-            className="flex items-start justify-center md:justify-start space-x-3 text-brand-light/80 hover:text-brand-accent transition-colors"
+            className="flex items-start justify-start space-x-3 text-brand-light/80 hover:text-brand-accent transition-colors"
           >
             <MapPin className="shrink-0 mt-1" size={20} />
             <span>125, Maruti Solaris, Sojitra Road, Near Madhuvan Resort, Vallabh Vidyanagar,<br/> Anand, Gujarat 388120.</span>
@@ -38,19 +38,19 @@ const Footer = () => {
           <h4 className="text-brand-accent font-bold mb-6 uppercase tracking-wider">Contact Us</h4>
           <ul className="space-y-4 text-brand-light/80">
             <li>
-              <a href="tel:+919662001448" className="flex items-center justify-center md:justify-start space-x-3 hover:text-brand-accent transition-colors">
+              <a href="tel:+919662001448" className="flex items-center justify-start space-x-3 hover:text-brand-accent transition-colors">
                 <Phone size={20} />
                 <span>Cafe: +91 96620 01448</span>
               </a>
             </li>
             <li>
-              <a href="tel:+918160800430" className="flex items-center justify-center md:justify-start space-x-3 hover:text-brand-accent transition-colors">
+              <a href="tel:+918160800430" className="flex items-center justify-start space-x-3 hover:text-brand-accent transition-colors">
                 <Phone size={20} />
                 <span>Owner: +91 8160800430</span>
               </a>
             </li>
             <li>
-              <a href="mailto:rocksoulcafebistro@gmail.com" className="flex items-center justify-center md:justify-start space-x-3 hover:text-brand-accent transition-colors">
+              <a href="mailto:rocksoulcafebistro@gmail.com" className="flex items-center justify-start space-x-3 hover:text-brand-accent transition-colors">
                 <Mail size={20} />
                 <span>rocksoulcafebistro@gmail.com</span>
               </a>
@@ -61,7 +61,7 @@ const Footer = () => {
         {/* Division 4: Social Media */}
         <div>
           <h4 className="text-brand-accent font-bold mb-6 uppercase tracking-wider">Social Media</h4>
-          <div className="flex justify-center md:justify-start space-x-4">
+          <div className="flex justify-start space-x-4">
             <a href="https://wa.me/919662001448" target="_blank" rel="noreferrer" className="bg-brand-light/10 p-3 rounded-full text-brand-accent hover:bg-brand-accent hover:text-brand-dark transition-all">
               <MessageCircle size={24} />
             </a>
