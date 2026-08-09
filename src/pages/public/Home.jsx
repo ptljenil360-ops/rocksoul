@@ -26,7 +26,7 @@ const Home = () => {
           <h1 className="text-5xl md:text-7xl font-vibes text-brand-accent mb-6 tracking-widest">
             Soul In
           </h1>
-          <h1 className="text-2xl md:text-6xl font-vibes text-brand-accent mb-6 tracking-widest">
+          <h1 className="text-2xl md:text-7xl font-vibes text-brand-accent mb-6 tracking-widest">
             &emsp;&emsp;Every Sip
           </h1>
           <p className="text-xl md:text-2xl text-brand-light mb-10 font-modern max-w-xl">
