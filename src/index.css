@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-dark: #121212;
+  --color-brand-accent: #D4AF37; /* Warm Gold */
+  --color-brand-light: #F5F5DC;  /* Soft Beige */
+  
+  /* Add our custom font! */
+  --font-vibes: "Great Vibes", cursive;
+  --font-modern: "Playfair Display", serif;
+}
+
+body {
+  @apply bg-brand-dark text-brand-light font-modern antialiased;
+}
