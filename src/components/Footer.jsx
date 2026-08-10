@@ -21,7 +21,7 @@ const Footer = () => {
 
         {/* Division 2: Location */}
         <div>
-          <h4 className="text-brand-accent font-bold mb-6 uppercase tracking-wider">Location</h4>
+          <h4 className="text-brand-accent font-bold mb-6 uppercase tracking-wider">Find Us</h4>
           <a 
             href="https://maps.google.com?q=124,Maruti%20Solaris,%20Anand%20-%20Sojitra%20Rd,%20Anand,%20Gujarat%20388120&ftid=0x395e4d4e8d06d187:0x18df7379cb6ec6d5&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,94282134,100813469,94286869,100820247,100813014,100822499&g_st=ic" 
             target="_blank" 
@@ -60,7 +60,7 @@ const Footer = () => {
 
         {/* Division 4: Social Media */}
         <div>
-          <h4 className="text-brand-accent font-bold mb-6 uppercase tracking-wider">Social Media</h4>
+          <h4 className="text-brand-accent font-bold mb-6 uppercase tracking-wider">Follow Us</h4>
           <div className="flex justify-start space-x-4">
             <a href="https://wa.me/919662001448" target="_blank" rel="noreferrer" className="bg-brand-light/10 p-3 rounded-full text-brand-accent hover:bg-brand-accent hover:text-brand-dark transition-all">
               <MessageCircle size={24} />
@@ -82,7 +82,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="text-center text-brand-light/50 mt-12 pt-4 border-t border-brand-accent/10">
-        &copy; {new Date().getFullYear()} Rocksoul. All rights reserved.
+        &copy; {new Date().getFullYear()} Rocksoul. All rights reserved.Designed by Jenil Patel
       </div>
     </footer>
   );

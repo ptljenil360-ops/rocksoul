@@ -20,6 +20,7 @@ const Navbar = () => {
           <Link to="/" className="text-brand-light py-2 hover:text-brand-accent transition-colors">Home</Link>
           <Link to="/gallery" className="text-brand-light py-2 hover:text-brand-accent transition-colors">Gallery</Link>
           <Link to="/events" className="text-brand-light py-2 hover:text-brand-accent transition-colors">Events</Link>
+          <Link to="Footer" className="text-brand-light py-2 hover:text-brand-accent transition-colors">Contact Us</Link>
           <Link to="/book-a-table" className="border border-brand-accent text-brand-accent px-4 py-2 hover:bg-brand-accent hover:text-brand-dark transition-colors">Reservation</Link>
         </div>
 
