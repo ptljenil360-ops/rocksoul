@@ -9,7 +9,7 @@ import Footer from "./components/Footer.jsx";
 function App() {
     return (
         <>
-            <Router>
+            <Router basename="/rocksoul">
                 <Navbar />
                 <Routes>
                     <Route path="/" element={<Home />} />
